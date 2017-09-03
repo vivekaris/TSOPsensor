@@ -21,6 +21,7 @@ void setup()
   Serial.println("Enabling IRin");
   irrecv.enableIRIn(); // Start the receiver
   Serial.println("Enabled IRin");
+ pinMode(13,OUTPUT);
 }
 
 void loop() {
